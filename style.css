@@ -1,0 +1,565 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Debut de mon code */
+* {
+    list-style: none;
+
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #663300;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 21rem;
+}
+
+input {
+    border-radius: 2rem;
+    box-shadow: -1px 1px 20px 1px #000;
+}
+
+
+.search-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-box img {
+    padding-left: 1rem;
+}
+
+.navbar-inner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background: -moz-linear-gradient(haut, #FFFFFF 0%, #B2B2B2 53%, #E6E6E6 100%);
+    background: -webkit-linear-gradient(haut, #FFFFFF 0%, #B2B2B2 53%, #E6E6E6 100%);
+    background: linear-gradient(to right, #FFFFFF 0%, #B2B2B2 53%, #E6E6E6 100%);
+}
+
+
+
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+
+.menu:hover {
+    cursor: pointer;
+    background-color: #7f8a99;
+    height: 100%;
+}
+
+.carrousel ul {
+    width: 100%;
+    position: static;
+    z-index: 1;
+}
+
+.carrousel ul:hover {
+    cursor: pointer;
+}
+
+.carrousel .choco {
+    display: flex;
+    width: 100%;
+}
+
+.choco {
+    width: 100%;
+    display: flex;
+    background-color: #e6e6e6;
+    justify-content: center;
+    margin-top: -5rem;
+    z-index: 3;
+
+
+
+}
+
+.choco ul {
+    display: flex;
+
+
+
+}
+
+button {
+
+    align-items: center;
+    width: 18.2rem;
+    height: 5rem;
+    padding: 1rem;
+    border: none;
+    background-color: #f2f2f2;
+
+}
+
+button:hover {
+    background: transparent;
+    cursor: pointer;
+    color: #663300;
+
+}
+
+.title {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+hr {
+    width: 72rem;
+    text-decoration: line-through;
+    color: #663300;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.div1,
+.div2,
+.div3 {
+    width: 21rem;
+    height: 300px;
+    border: 0.5px solid #e6e6e6;
+    margin: 1.6rem 0.7rem;
+    padding: 1rem;
+    color: #666666;
+    font-size: 1rem;
+
+
+
+
+}
+
+.div1,
+.div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    line-height: 1.5rem;
+}
+
+.div3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    line-height: 1.5rem;
+
+
+}
+
+.arrow_article {
+    text-align: right;
+    color: #663300;
+    font-weight: bold;
+}
+
+.or {
+    color: #cc9900;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+
+
+
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.grey {
+    background-color: #e6e6e6;
+    height: 115rem;
+    width: 100%;
+}
+
+.carrousel2 {
+    background-image: url(image/main-frut.jpg);
+    margin-top: 5rem;
+    width: 100%;
+    height: 30rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    line-height: 3rem;
+
+}
+
+.responsability {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+
+}
+
+.rapport {
+    text-align: center;
+}
+
+.value {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.carre {
+    display: flex;
+    padding-top: 2.5rem;
+    justify-content: center;
+}
+
+.button2 {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 16rem;
+
+
+}
+
+.button2:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+    color: #508eba;
+    border: none;
+}
+
+.photo1-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+
+}
+
+.photo1 .photo2 {
+    height: 2rem;
+
+
+}
+
+
+.label {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin-top: -1rem;
+
+
+}
+
+.history {
+    position: relative;
+    margin: 1.5rem 23rem;
+    background-color: #ffffff;
+    height: 4rem;
+    width: 50%;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+
+}
+
+.label1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 4rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 73rem;
+    margin-top: -1rem;
+}
+
+
+.contact {
+    background-image: url(/image/bkg-contatta-ferrero.jpg);
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form {
+
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2rem;
+    margin: 2rem 20rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.contact_adress {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.ferrero_form{
+
+    background-color: #ffffff;
+    display: flex;
+
+    width: 70rem;
+    justify-content: center;
+}
+
+footer {
+    background-color: #6b4b2c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f2f2f2;
+
+
+
+}
+
+
+.href {
+    display: flex;
+    padding-left: 70rem;
+    height: 10rem;
+    line-height: 1.5rem;
+    align-content: center;
+    width: 100%;
+    margin: 0.5rem 2rem;
+
+
+
+}
+
+.href a {
+    color: #f2f2f2;
+    text-decoration: none;
+
+
+
+}
+
+.ref1,
+.ref2,
+.ref3 {
+
+    font-size: 0.8rem;
+    padding: 1rem;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.vertical_line {
+    border-left: 1px solid #e6e6e6;
+    height: 9rem;
+    display: flex;
+
+
+}
+
+.ref1 {
+    display: flex;
+
+
+
+
+}
+
+.ref2 {
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+
+
+}
+
+.ref3 {
+    font-size: 0.6rem;
+}
+
+.sport {
+    display: flex;
+    justify-content: center;
+    color: #a3a3a3;
+    font-size: 0.6rem;
+}
