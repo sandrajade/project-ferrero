@@ -135,10 +135,10 @@ table {
 }
 
 /* Debut de mon code */
-body  
-{  
-overflow-x:hidden;  
-}  
+body {
+    overflow-x: hidden;
+}
+
 main {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -158,7 +158,9 @@ main {
 input {
     border-radius: 2rem;
     border: none;
+    
     -webkit-box-shadow: inset 2px 2px 8px #ccc;
+    
 }
 
 
@@ -199,9 +201,11 @@ input {
     color: #ffffff;
 
 }
+
 .banner {
     width: 100%;
 }
+
 .carrousel ul {
 
     position: static;
@@ -252,7 +256,7 @@ input {
     background: transparent;
     cursor: pointer;
     color: #ffffff;
-    
+
 
 }
 
@@ -293,7 +297,8 @@ hr {
 }
 
 .div1,
-.div2 {
+.div2 
+{
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -306,7 +311,6 @@ hr {
     flex-direction: column;
     gap: 3.5rem;
     line-height: 1.5rem;
-
 
 }
 
@@ -436,7 +440,7 @@ span:hover {
     font-family: 'Open Sans', sans-serif;
     margin-top: -0.8rem;
     padding: 0 0 0 2rem;
-    
+
 }
 
 .contact {
@@ -645,3 +649,110 @@ footer {
     color: #a3a3a3;
     font-size: 0.6rem;
 }
+
+/* Essai de responsive 
+
+@media screen (max-width: 710px) {
+    body {
+        list-style-type: none;
+    }
+
+    .logo {
+       
+    
+    display: block;
+    height: 1rem;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 21rem;
+
+    }
+
+    input {
+        width: 10rem;
+        border-radius: 2rem;
+        border: none;
+        box-shadow: #7f8a99;
+        -webkit-box-shadow: inset 2px 2px 8px #ccc;
+    }
+    .loupe {
+        display: block;
+    }
+    .search-box {
+        display: block;
+
+        
+    }
+
+    .search-box img {
+        padding-left: 1rem;
+        width: 30rem;
+
+
+        }
+        ul {
+            list-style: none;
+        }
+        .menu {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.5rem;
+            padding: 0 0.5rem;
+    }
+
+    banner {
+    width: 30%;
+    }
+
+    .carrousel2 {
+    background-image: url(image/main-frut.jpg);
+    margin-top: 5rem;
+    height: 30rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    line-height: 2rem;
+    width: 30%;
+
+    }
+
+    .div1,
+    .div2 {
+
+    width: 21rem;
+    height: 300px;
+    border: 0.5px solid #e6e6e6;
+    display: block;
+    color: #666666;
+    font-size: 1rem;
+    }
+
+    .history {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 13rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 50%;
+    }
+    li {
+        list-style-type: none;
+    }
+    .choc {
+        border: 1px solid #000000;
+        align-items: center;
+        width: 18.2rem;
+        height: 5rem;
+        padding: 1rem;
+        border: none;
+        background-color: #f2f2f2;
+        color: #663300;
+    }
+    .href {
+        display: block;
+    }
+}
+
+*/
+
